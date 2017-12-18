@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Armut.Sample.Messaging.Repository
 {
-    public class BlockingRepository : Repository<Blocking>, IBlockingRepository
+    internal class BlockingRepository : Repository<Blocking>, IBlockingRepository
     {
         public BlockingRepository(MessagingContext dbContext) : base(dbContext)
         {

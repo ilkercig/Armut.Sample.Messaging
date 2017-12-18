@@ -3,7 +3,7 @@ using System.Text;
 
 namespace Armut.Sample.Messaging.JWT
 {
-    public static class JwtSecurityKey
+    internal static class JwtSecurityKey
     {
         public static SymmetricSecurityKey Create(string secret)
         {

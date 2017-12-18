@@ -7,7 +7,7 @@ using System.Linq;
 
 namespace Armut.Sample.Messaging.JWT
 {
-    public sealed class JwtTokenBuilder
+    internal sealed class JwtTokenBuilder
     {
         private SecurityKey securityKey = null;
         private string subject = "";

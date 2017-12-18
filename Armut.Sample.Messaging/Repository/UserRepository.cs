@@ -8,7 +8,7 @@ using Armut.Sample.Messaging.Model;
 
 namespace Armut.Sample.Messaging.Repository
 {
-    public class UserRepository : Repository<User> ,IUserRepository
+    internal class UserRepository : Repository<User> ,IUserRepository
     {
         public UserRepository(MessagingContext dbContext) : base(dbContext)
         {

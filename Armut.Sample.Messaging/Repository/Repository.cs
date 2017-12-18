@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Armut.Sample.Messaging.Repository
 {
-    public abstract class Repository<T> where T: ModelBase
+    internal abstract class Repository<T> where T: ModelBase
     {
         protected readonly MessagingContext m_DbContext;
 

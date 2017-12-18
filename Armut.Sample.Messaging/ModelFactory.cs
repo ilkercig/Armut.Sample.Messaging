@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Armut.Sample.Messaging
 {
-    public class ModelFactory : IModelFactory
+    internal class ModelFactory : IModelFactory
     {
         public Blocking CreateBlocking(int blockerId, int unWantedId)
         {

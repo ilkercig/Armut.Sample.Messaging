@@ -3,7 +3,7 @@ using System.IdentityModel.Tokens.Jwt;
 
 namespace Armut.Sample.Messaging.JWT
 {
-    public sealed class JwtToken
+    internal sealed class JwtToken
     {
         private JwtSecurityToken token;
 

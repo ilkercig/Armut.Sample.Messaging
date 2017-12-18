@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Armut.Sample.Messaging
 {
-    public static class ResponseFactory 
+    internal static class ResponseFactory 
     {
         public static ResponseBase CreateResponse(string error)
         {

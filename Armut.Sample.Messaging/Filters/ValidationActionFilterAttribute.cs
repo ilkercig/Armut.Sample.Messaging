@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Armut.Sample.Messaging.Filters
 {
-    public class ValidationActionFilterAttribute : ActionFilterAttribute
+    internal class ValidationActionFilterAttribute : ActionFilterAttribute
     {
         public override void OnActionExecuting(ActionExecutingContext context)
         {
