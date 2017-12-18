@@ -1,0 +1,87 @@
+2017-12-19 00:01:39.363 +03:00 [Information] User profile is available. Using '"C:\Users\ilker\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2017-12-19 00:01:39.420 +03:00 [Debug] Reading data from file '"C:\Users\ilker\AppData\Local\ASP.NET\DataProtection-Keys\key-3c6a002c-337b-483d-8e48-19244a8bde3c.xml"'.
+2017-12-19 00:01:39.427 +03:00 [Debug] Found key {3c6a002c-337b-483d-8e48-19244a8bde3c}.
+2017-12-19 00:01:39.435 +03:00 [Debug] Considering key {3c6a002c-337b-483d-8e48-19244a8bde3c} with expiration date 2018-03-13 17:54:12Z as default key.
+2017-12-19 00:01:39.437 +03:00 [Debug] Forwarded activator type request from "Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=2.0.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60" to "Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60"
+2017-12-19 00:01:39.439 +03:00 [Debug] Decrypting secret element using Windows DPAPI.
+2017-12-19 00:01:39.441 +03:00 [Debug] Forwarded activator type request from "Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=2.0.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60" to "Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60"
+2017-12-19 00:01:39.442 +03:00 [Debug] Opening CNG algorithm '"AES"' from provider 'null' with chaining mode CBC.
+2017-12-19 00:01:39.444 +03:00 [Debug] Opening CNG algorithm '"SHA256"' from provider 'null' with HMAC.
+2017-12-19 00:01:39.447 +03:00 [Debug] Using key {3c6a002c-337b-483d-8e48-19244a8bde3c} as the default key.
+2017-12-19 00:01:39.448 +03:00 [Debug] Key ring with default key {3c6a002c-337b-483d-8e48-19244a8bde3c} was loaded during application startup.
+2017-12-19 00:01:39.673 +03:00 [Debug] An 'IServiceProvider' was created for internal use by Entity Framework.
+2017-12-19 00:01:39.785 +03:00 [Warning] The 'bool' property '"Read"' on entity type '"Message"' is configured with a database-generated default. This default will always be used when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead so that the default will only be used when the property value is 'null'.
+2017-12-19 00:01:39.808 +03:00 [Information] Entity Framework Core "2.0.1-rtm-125" initialized '"MessagingContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2017-12-19 00:01:39.830 +03:00 [Debug] Opening connection to database '"Armut.Sample.Messaging"' on server '"(localdb)\mssqllocaldb"'.
+2017-12-19 00:01:40.711 +03:00 [Debug] Opened connection to database '"Armut.Sample.Messaging"' on server '"(localdb)\mssqllocaldb"'.
+2017-12-19 00:01:40.711 +03:00 [Debug] Closing connection to database '"Armut.Sample.Messaging"' on server '"(localdb)\mssqllocaldb"'.
+2017-12-19 00:01:40.711 +03:00 [Debug] Closed connection to database '"Armut.Sample.Messaging"' on server '"(localdb)\mssqllocaldb"'.
+2017-12-19 00:01:40.713 +03:00 [Debug] Opening connection to database '"Armut.Sample.Messaging"' on server '"(localdb)\mssqllocaldb"'.
+2017-12-19 00:01:40.714 +03:00 [Debug] Opened connection to database '"Armut.Sample.Messaging"' on server '"(localdb)\mssqllocaldb"'.
+2017-12-19 00:01:40.718 +03:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0"
+2017-12-19 00:01:40.951 +03:00 [Information] Executed DbCommand ("233"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0"
+2017-12-19 00:01:40.952 +03:00 [Debug] Closing connection to database '"Armut.Sample.Messaging"' on server '"(localdb)\mssqllocaldb"'.
+2017-12-19 00:01:40.952 +03:00 [Debug] Closed connection to database '"Armut.Sample.Messaging"' on server '"(localdb)\mssqllocaldb"'.
+2017-12-19 00:01:40.986 +03:00 [Debug] Compiling query model: "
+"'"(from User <generated>_1 in DbSet<User>
+select [<generated>_1]).Any()"'
+2017-12-19 00:01:40.994 +03:00 [Debug] Optimized query model: "
+"'"(from User <generated>_1 in DbSet<User>
+select [<generated>_1]).Any()"'
+2017-12-19 00:01:41.024 +03:00 [Debug] "(QueryContext queryContext) => IEnumerable<bool> _InterceptExceptions(
+    source: IEnumerable<bool> _ToSequence(bool GetResult(
+            valueBuffers: IEnumerable<ValueBuffer> _Query(
+                queryContext: queryContext, 
+                shaperCommandContext: SelectExpression: 
+                    SELECT CASE
+                        WHEN EXISTS (
+                            SELECT 1
+                            FROM [User] AS [u])
+                        THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+                    END), 
+            throwOnNullResult: False)), 
+    contextType: Armut.Sample.Messaging.Data.MessagingContext, 
+    logger: DiagnosticsLogger<Query>, 
+    queryContext: queryContext)"
+2017-12-19 00:01:41.029 +03:00 [Debug] Opening connection to database '"Armut.Sample.Messaging"' on server '"(localdb)\mssqllocaldb"'.
+2017-12-19 00:01:41.029 +03:00 [Debug] Opened connection to database '"Armut.Sample.Messaging"' on server '"(localdb)\mssqllocaldb"'.
+2017-12-19 00:01:41.042 +03:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [User] AS [u])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END"
+2017-12-19 00:01:41.048 +03:00 [Information] Executed DbCommand ("5"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [User] AS [u])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END"
+2017-12-19 00:01:41.053 +03:00 [Debug] A data reader was disposed.
+2017-12-19 00:01:41.053 +03:00 [Debug] Closing connection to database '"Armut.Sample.Messaging"' on server '"(localdb)\mssqllocaldb"'.
+2017-12-19 00:01:41.053 +03:00 [Debug] Closed connection to database '"Armut.Sample.Messaging"' on server '"(localdb)\mssqllocaldb"'.
+2017-12-19 00:01:41.058 +03:00 [Debug] Hosting starting
+2017-12-19 00:01:41.229 +03:00 [Debug] Hosting started
+2017-12-19 00:01:41.229 +03:00 [Debug] Loaded hosting startup assembly "Armut.Sample.Messaging"
+2017-12-19 00:01:41.229 +03:00 [Debug] Loaded hosting startup assembly "Microsoft.AspNetCore.Server.IISIntegration"
+2017-12-19 00:01:41.229 +03:00 [Debug] Loaded hosting startup assembly "Microsoft.AspNetCore.ApplicationInsights.HostingStartup"
+2017-12-19 00:01:41.262 +03:00 [Debug] Connection id ""0HLA6BA4PPTRL"" started.
+2017-12-19 00:01:41.262 +03:00 [Debug] Connection id ""0HLA6BA4PPTRK"" started.
+2017-12-19 00:01:41.288 +03:00 [Debug] Connection id ""0HLA6BA4PPTRK"" reset.
+2017-12-19 00:01:41.288 +03:00 [Debug] Connection id ""0HLA6BA4PPTRK"" disconnecting.
+2017-12-19 00:01:41.291 +03:00 [Debug] Connection id ""0HLA6BA4PPTRK"" sending FIN.
+2017-12-19 00:01:41.294 +03:00 [Debug] Connection id ""0HLA6BA4PPTRK"" stopped.
+2017-12-19 00:01:41.421 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:42775/api/values  
+2017-12-19 00:01:41.475 +03:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+2017-12-19 00:01:41.559 +03:00 [Debug] Request did not match any routes.
+2017-12-19 00:01:41.609 +03:00 [Debug] Connection id ""0HLA6BA4PPTRL"" completed keep alive response.
+2017-12-19 00:01:41.610 +03:00 [Information] Request finished in 190.297ms 404 
+2017-12-19 00:01:41.660 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:42775/favicon.ico  
+2017-12-19 00:01:41.663 +03:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+2017-12-19 00:01:41.664 +03:00 [Debug] Request did not match any routes.
+2017-12-19 00:01:41.664 +03:00 [Debug] Connection id ""0HLA6BA4PPTRL"" completed keep alive response.
+2017-12-19 00:01:41.664 +03:00 [Information] Request finished in 3.6861ms 404 

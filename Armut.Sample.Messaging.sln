@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2003
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Armut.Sample.Messaging", "Armut.Sample.Messaging\Armut.Sample.Messaging.csproj", "{D67D1C89-FC52-44D0-8972-920C75190357}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Armut.Sample.Messaging.Nunit.Test", "Armut.Sample.Messaging.Nunit.Test\Armut.Sample.Messaging.Nunit.Test.csproj", "{328A8890-15D8-4418-B426-0FA285EFEA59}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D67D1C89-FC52-44D0-8972-920C75190357}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D67D1C89-FC52-44D0-8972-920C75190357}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D67D1C89-FC52-44D0-8972-920C75190357}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D67D1C89-FC52-44D0-8972-920C75190357}.Release|Any CPU.Build.0 = Release|Any CPU
+		{328A8890-15D8-4418-B426-0FA285EFEA59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{328A8890-15D8-4418-B426-0FA285EFEA59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{328A8890-15D8-4418-B426-0FA285EFEA59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{328A8890-15D8-4418-B426-0FA285EFEA59}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B72A5FAF-3C17-4C77-8B99-18429DEC154E}
+	EndGlobalSection
+EndGlobal
