@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc.ModelBinding;
 
 namespace Armut.Sample.Messaging
 {
-    internal class ResponseBase                                                                                                                        
+    public class ResponseBase                                                                                                                        
     {
         private List<string> m_Errors = new List<string>();
 

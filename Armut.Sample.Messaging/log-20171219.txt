@@ -85,3 +85,467 @@ END"
 2017-12-19 00:01:41.664 +03:00 [Debug] Request did not match any routes.
 2017-12-19 00:01:41.664 +03:00 [Debug] Connection id ""0HLA6BA4PPTRL"" completed keep alive response.
 2017-12-19 00:01:41.664 +03:00 [Information] Request finished in 3.6861ms 404 
+2017-12-19 00:28:30.404 +03:00 [Information] User profile is available. Using '"C:\Users\ilker\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2017-12-19 00:28:30.440 +03:00 [Debug] Reading data from file '"C:\Users\ilker\AppData\Local\ASP.NET\DataProtection-Keys\key-3c6a002c-337b-483d-8e48-19244a8bde3c.xml"'.
+2017-12-19 00:28:30.448 +03:00 [Debug] Found key {3c6a002c-337b-483d-8e48-19244a8bde3c}.
+2017-12-19 00:28:30.455 +03:00 [Debug] Considering key {3c6a002c-337b-483d-8e48-19244a8bde3c} with expiration date 2018-03-13 17:54:12Z as default key.
+2017-12-19 00:28:30.458 +03:00 [Debug] Forwarded activator type request from "Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=2.0.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60" to "Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60"
+2017-12-19 00:28:30.458 +03:00 [Debug] Decrypting secret element using Windows DPAPI.
+2017-12-19 00:28:30.459 +03:00 [Debug] Forwarded activator type request from "Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=2.0.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60" to "Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60"
+2017-12-19 00:28:30.460 +03:00 [Debug] Opening CNG algorithm '"AES"' from provider 'null' with chaining mode CBC.
+2017-12-19 00:28:30.463 +03:00 [Debug] Opening CNG algorithm '"SHA256"' from provider 'null' with HMAC.
+2017-12-19 00:28:30.466 +03:00 [Debug] Using key {3c6a002c-337b-483d-8e48-19244a8bde3c} as the default key.
+2017-12-19 00:28:30.466 +03:00 [Debug] Key ring with default key {3c6a002c-337b-483d-8e48-19244a8bde3c} was loaded during application startup.
+2017-12-19 00:28:30.678 +03:00 [Debug] An 'IServiceProvider' was created for internal use by Entity Framework.
+2017-12-19 00:28:30.806 +03:00 [Warning] The 'bool' property '"Read"' on entity type '"Message"' is configured with a database-generated default. This default will always be used when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead so that the default will only be used when the property value is 'null'.
+2017-12-19 00:28:30.830 +03:00 [Information] Entity Framework Core "2.0.1-rtm-125" initialized '"MessagingContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2017-12-19 00:28:30.854 +03:00 [Debug] Opening connection to database '"Armut.Sample.Messaging"' on server '"(localdb)\mssqllocaldb"'.
+2017-12-19 00:28:31.557 +03:00 [Debug] Opened connection to database '"Armut.Sample.Messaging"' on server '"(localdb)\mssqllocaldb"'.
+2017-12-19 00:28:31.558 +03:00 [Debug] Closing connection to database '"Armut.Sample.Messaging"' on server '"(localdb)\mssqllocaldb"'.
+2017-12-19 00:28:31.558 +03:00 [Debug] Closed connection to database '"Armut.Sample.Messaging"' on server '"(localdb)\mssqllocaldb"'.
+2017-12-19 00:28:31.560 +03:00 [Debug] Opening connection to database '"Armut.Sample.Messaging"' on server '"(localdb)\mssqllocaldb"'.
+2017-12-19 00:28:31.561 +03:00 [Debug] Opened connection to database '"Armut.Sample.Messaging"' on server '"(localdb)\mssqllocaldb"'.
+2017-12-19 00:28:31.566 +03:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0"
+2017-12-19 00:28:31.609 +03:00 [Information] Executed DbCommand ("44"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0"
+2017-12-19 00:28:31.609 +03:00 [Debug] Closing connection to database '"Armut.Sample.Messaging"' on server '"(localdb)\mssqllocaldb"'.
+2017-12-19 00:28:31.609 +03:00 [Debug] Closed connection to database '"Armut.Sample.Messaging"' on server '"(localdb)\mssqllocaldb"'.
+2017-12-19 00:28:31.638 +03:00 [Debug] Compiling query model: "
+"'"(from User <generated>_1 in DbSet<User>
+select [<generated>_1]).Any()"'
+2017-12-19 00:28:31.646 +03:00 [Debug] Optimized query model: "
+"'"(from User <generated>_1 in DbSet<User>
+select [<generated>_1]).Any()"'
+2017-12-19 00:28:31.669 +03:00 [Debug] "(QueryContext queryContext) => IEnumerable<bool> _InterceptExceptions(
+    source: IEnumerable<bool> _ToSequence(bool GetResult(
+            valueBuffers: IEnumerable<ValueBuffer> _Query(
+                queryContext: queryContext, 
+                shaperCommandContext: SelectExpression: 
+                    SELECT CASE
+                        WHEN EXISTS (
+                            SELECT 1
+                            FROM [User] AS [u])
+                        THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+                    END), 
+            throwOnNullResult: False)), 
+    contextType: Armut.Sample.Messaging.Data.MessagingContext, 
+    logger: DiagnosticsLogger<Query>, 
+    queryContext: queryContext)"
+2017-12-19 00:28:31.673 +03:00 [Debug] Opening connection to database '"Armut.Sample.Messaging"' on server '"(localdb)\mssqllocaldb"'.
+2017-12-19 00:28:31.673 +03:00 [Debug] Opened connection to database '"Armut.Sample.Messaging"' on server '"(localdb)\mssqllocaldb"'.
+2017-12-19 00:28:31.685 +03:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [User] AS [u])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END"
+2017-12-19 00:28:31.689 +03:00 [Information] Executed DbCommand ("4"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [User] AS [u])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END"
+2017-12-19 00:28:31.693 +03:00 [Debug] A data reader was disposed.
+2017-12-19 00:28:31.694 +03:00 [Debug] Closing connection to database '"Armut.Sample.Messaging"' on server '"(localdb)\mssqllocaldb"'.
+2017-12-19 00:28:31.694 +03:00 [Debug] Closed connection to database '"Armut.Sample.Messaging"' on server '"(localdb)\mssqllocaldb"'.
+2017-12-19 00:28:31.698 +03:00 [Debug] Hosting starting
+2017-12-19 00:28:31.745 +03:00 [Debug] Hosting started
+2017-12-19 00:28:31.746 +03:00 [Debug] Loaded hosting startup assembly "Armut.Sample.Messaging"
+2017-12-19 00:28:31.746 +03:00 [Debug] Loaded hosting startup assembly "Microsoft.AspNetCore.Server.IISIntegration"
+2017-12-19 00:28:31.746 +03:00 [Debug] Loaded hosting startup assembly "Microsoft.AspNetCore.ApplicationInsights.HostingStartup"
+2017-12-19 00:28:31.963 +03:00 [Debug] Connection id ""0HLA6BP4QKQQ4"" started.
+2017-12-19 00:28:31.963 +03:00 [Debug] Connection id ""0HLA6BP4QKQQ3"" started.
+2017-12-19 00:28:31.987 +03:00 [Debug] Connection id ""0HLA6BP4QKQQ3"" reset.
+2017-12-19 00:28:31.987 +03:00 [Debug] Connection id ""0HLA6BP4QKQQ3"" disconnecting.
+2017-12-19 00:28:31.989 +03:00 [Debug] Connection id ""0HLA6BP4QKQQ3"" sending FIN.
+2017-12-19 00:28:32.003 +03:00 [Debug] Connection id ""0HLA6BP4QKQQ3"" stopped.
+2017-12-19 00:28:32.034 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:42775/api/values  
+2017-12-19 00:28:32.080 +03:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+2017-12-19 00:28:32.175 +03:00 [Debug] Request did not match any routes.
+2017-12-19 00:28:32.182 +03:00 [Debug] Connection id ""0HLA6BP4QKQQ4"" completed keep alive response.
+2017-12-19 00:28:32.183 +03:00 [Information] Request finished in 151.9838ms 404 
+2017-12-19 00:28:32.233 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:42775/favicon.ico  
+2017-12-19 00:28:32.234 +03:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+2017-12-19 00:28:32.234 +03:00 [Debug] Request did not match any routes.
+2017-12-19 00:28:32.234 +03:00 [Debug] Connection id ""0HLA6BP4QKQQ4"" completed keep alive response.
+2017-12-19 00:28:32.234 +03:00 [Information] Request finished in 1.8082ms 404 
+2017-12-19 00:28:52.473 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:42775/api/user/login?UserName=Marty&password=131412  
+2017-12-19 00:28:52.508 +03:00 [Information] Failed to validate the token "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VybmFtZSI6Ik1hcnR5IiwiZXhwIjoxNTEzNjI5NjE4LCJpc3MiOiJBcm11dC5TYW1wbGUuTWVzc2FnaW5nIiwiYXVkIjoiQXJtdXQuU2FtcGxlLk1lc3NhZ2luZyJ9.sjuxXFsM9DLqMPcyQ-qyIm61uhDccYAH4dSBnm_Lpxs".
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired.
+ValidTo: '12/18/2017 20:40:18'
+Current time: '12/18/2017 21:28:52'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwt, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.<HandleAuthenticateAsync>d__6.MoveNext()
+2017-12-19 00:28:52.542 +03:00 [Information] "Bearer" was not authenticated. Failure message: "IDX10223: Lifetime validation failed. The token is expired.
+ValidTo: '12/18/2017 20:40:18'
+Current time: '12/18/2017 21:28:52'."
+2017-12-19 00:28:52.543 +03:00 [Debug] Request successfully matched the route with name 'null' and template '"api/User/login"'.
+2017-12-19 00:28:52.592 +03:00 [Debug] Executing action "Armut.Sample.Messaging.Controllers.UserController.Login (Armut.Sample.Messaging)"
+2017-12-19 00:28:52.629 +03:00 [Information] Executing action method "Armut.Sample.Messaging.Controllers.UserController.Login (Armut.Sample.Messaging)" with arguments (["Marty", "131412"]) - ModelState is Valid
+2017-12-19 00:28:52.634 +03:00 [Information] Entity Framework Core "2.0.1-rtm-125" initialized '"MessagingContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2017-12-19 00:28:52.639 +03:00 [Debug] Compiling query model: "
+"'"(from User u in DbSet<User>
+where [u].UserName == __username_0
+select [u]).SingleOrDefault()"'
+2017-12-19 00:28:52.641 +03:00 [Debug] Optimized query model: "
+"'"(from User u in DbSet<User>
+where [u].UserName == __username_0
+select [u]).SingleOrDefault()"'
+2017-12-19 00:28:52.659 +03:00 [Debug] "(QueryContext queryContext) => IEnumerable<User> _InterceptExceptions(
+    source: IEnumerable<User> _TrackEntities(
+        results: IEnumerable<User> _ToSequence(User SingleOrDefault(IEnumerable<User> _ShapedQuery(
+                    queryContext: queryContext, 
+                    shaperCommandContext: SelectExpression: 
+                        SELECT TOP(2) [u].[UserID], [u].[EmailAddress], [u].[Password], [u].[UserName]
+                        FROM [User] AS [u]
+                        WHERE [u].[UserName] = @__username_0, 
+                    shaper: UnbufferedEntityShaper<User>))), 
+        queryContext: queryContext, 
+        entityTrackingInfos: { itemType: User }, 
+        entityAccessors: List<Func<User, object>> 
+        { 
+            Func<User, User>, 
+        }
+    ), 
+    contextType: Armut.Sample.Messaging.Data.MessagingContext, 
+    logger: DiagnosticsLogger<Query>, 
+    queryContext: queryContext)"
+2017-12-19 00:28:52.660 +03:00 [Debug] Opening connection to database '"Armut.Sample.Messaging"' on server '"(localdb)\mssqllocaldb"'.
+2017-12-19 00:28:52.661 +03:00 [Debug] Opened connection to database '"Armut.Sample.Messaging"' on server '"(localdb)\mssqllocaldb"'.
+2017-12-19 00:28:52.663 +03:00 [Debug] Executing DbCommand [Parameters=["@__username_0='?' (Size = 100)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [u].[UserID], [u].[EmailAddress], [u].[Password], [u].[UserName]
+FROM [User] AS [u]
+WHERE [u].[UserName] = @__username_0"
+2017-12-19 00:28:52.687 +03:00 [Information] Executed DbCommand ("24"ms) [Parameters=["@__username_0='?' (Size = 100)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [u].[UserID], [u].[EmailAddress], [u].[Password], [u].[UserName]
+FROM [User] AS [u]
+WHERE [u].[UserName] = @__username_0"
+2017-12-19 00:28:52.714 +03:00 [Debug] A data reader was disposed.
+2017-12-19 00:28:52.714 +03:00 [Debug] Closing connection to database '"Armut.Sample.Messaging"' on server '"(localdb)\mssqllocaldb"'.
+2017-12-19 00:28:52.714 +03:00 [Debug] Closed connection to database '"Armut.Sample.Messaging"' on server '"(localdb)\mssqllocaldb"'.
+2017-12-19 00:28:52.734 +03:00 [Information] User Logged in with Id: 2011
+2017-12-19 00:28:52.745 +03:00 [Debug] Executed action method "Armut.Sample.Messaging.Controllers.UserController.Login (Armut.Sample.Messaging)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult".
+2017-12-19 00:28:52.750 +03:00 [Debug] No information found on request to perform content negotiation.
+2017-12-19 00:28:52.751 +03:00 [Debug] Selected output formatter '"Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter"' and content type '"text/plain"' to write the response.
+2017-12-19 00:28:52.751 +03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-12-19 00:28:52.769 +03:00 [Information] Executed action "Armut.Sample.Messaging.Controllers.UserController.Login (Armut.Sample.Messaging)" in 173.9249ms
+2017-12-19 00:28:52.770 +03:00 [Debug] Connection id ""0HLA6BP4QKQQ4"" completed keep alive response.
+2017-12-19 00:28:52.770 +03:00 [Information] Request finished in 297.6126ms 200 text/plain; charset=utf-8
+2017-12-19 00:29:08.982 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:42775/api/api/message/send?receiver=rick&body=merhaba  
+2017-12-19 00:29:08.983 +03:00 [Information] Failed to validate the token "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VybmFtZSI6Ik1hcnR5IiwiZXhwIjoxNTEzNjI5NjE4LCJpc3MiOiJBcm11dC5TYW1wbGUuTWVzc2FnaW5nIiwiYXVkIjoiQXJtdXQuU2FtcGxlLk1lc3NhZ2luZyJ9.sjuxXFsM9DLqMPcyQ-qyIm61uhDccYAH4dSBnm_Lpxs".
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired.
+ValidTo: '12/18/2017 20:40:18'
+Current time: '12/18/2017 21:29:08'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwt, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.<HandleAuthenticateAsync>d__6.MoveNext()
+2017-12-19 00:29:08.984 +03:00 [Information] "Bearer" was not authenticated. Failure message: "IDX10223: Lifetime validation failed. The token is expired.
+ValidTo: '12/18/2017 20:40:18'
+Current time: '12/18/2017 21:29:08'."
+2017-12-19 00:29:08.984 +03:00 [Debug] Request did not match any routes.
+2017-12-19 00:29:08.984 +03:00 [Debug] Connection id ""0HLA6BP4QKQQ4"" completed keep alive response.
+2017-12-19 00:29:08.984 +03:00 [Information] Request finished in 2.043ms 404 
+2017-12-19 00:29:15.497 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:42775/api/message/send?receiver=rick&body=merhaba  
+2017-12-19 00:29:15.497 +03:00 [Information] Failed to validate the token "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VybmFtZSI6Ik1hcnR5IiwiZXhwIjoxNTEzNjI5NjE4LCJpc3MiOiJBcm11dC5TYW1wbGUuTWVzc2FnaW5nIiwiYXVkIjoiQXJtdXQuU2FtcGxlLk1lc3NhZ2luZyJ9.sjuxXFsM9DLqMPcyQ-qyIm61uhDccYAH4dSBnm_Lpxs".
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired.
+ValidTo: '12/18/2017 20:40:18'
+Current time: '12/18/2017 21:29:15'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwt, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.<HandleAuthenticateAsync>d__6.MoveNext()
+2017-12-19 00:29:15.498 +03:00 [Information] "Bearer" was not authenticated. Failure message: "IDX10223: Lifetime validation failed. The token is expired.
+ValidTo: '12/18/2017 20:40:18'
+Current time: '12/18/2017 21:29:15'."
+2017-12-19 00:29:15.498 +03:00 [Debug] Request successfully matched the route with name 'null' and template '"api/Message/send"'.
+2017-12-19 00:29:15.499 +03:00 [Debug] Action '"Armut.Sample.Messaging.Controllers.MessageController.SendMessage (Armut.Sample.Messaging)"' with id '"fe3f2060-20c0-4aa2-919e-fe0781838f6e"' did not match the constraint '"Microsoft.AspNetCore.Mvc.Internal.HttpMethodActionConstraint"'
+2017-12-19 00:29:15.500 +03:00 [Debug] No actions matched the current request. Route values: []
+2017-12-19 00:29:15.500 +03:00 [Debug] Request did not match any routes.
+2017-12-19 00:29:15.500 +03:00 [Debug] Connection id ""0HLA6BP4QKQQ4"" completed keep alive response.
+2017-12-19 00:29:15.500 +03:00 [Information] Request finished in 3.7703ms 404 
+2017-12-19 00:29:20.642 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:42775/api/message/send?receiver=rick&body=merhaba  
+2017-12-19 00:29:20.643 +03:00 [Information] Failed to validate the token "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VybmFtZSI6Ik1hcnR5IiwiZXhwIjoxNTEzNjI5NjE4LCJpc3MiOiJBcm11dC5TYW1wbGUuTWVzc2FnaW5nIiwiYXVkIjoiQXJtdXQuU2FtcGxlLk1lc3NhZ2luZyJ9.sjuxXFsM9DLqMPcyQ-qyIm61uhDccYAH4dSBnm_Lpxs".
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired.
+ValidTo: '12/18/2017 20:40:18'
+Current time: '12/18/2017 21:29:20'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwt, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.<HandleAuthenticateAsync>d__6.MoveNext()
+2017-12-19 00:29:20.644 +03:00 [Information] "Bearer" was not authenticated. Failure message: "IDX10223: Lifetime validation failed. The token is expired.
+ValidTo: '12/18/2017 20:40:18'
+Current time: '12/18/2017 21:29:20'."
+2017-12-19 00:29:20.644 +03:00 [Debug] Request successfully matched the route with name 'null' and template '"api/Message/send"'.
+2017-12-19 00:29:20.644 +03:00 [Debug] Action '"Armut.Sample.Messaging.Controllers.MessageController.SendMessage (Armut.Sample.Messaging)"' with id '"fe3f2060-20c0-4aa2-919e-fe0781838f6e"' did not match the constraint '"Microsoft.AspNetCore.Mvc.Internal.HttpMethodActionConstraint"'
+2017-12-19 00:29:20.644 +03:00 [Debug] No actions matched the current request. Route values: []
+2017-12-19 00:29:20.644 +03:00 [Debug] Request did not match any routes.
+2017-12-19 00:29:20.644 +03:00 [Debug] Connection id ""0HLA6BP4QKQQ4"" completed keep alive response.
+2017-12-19 00:29:20.644 +03:00 [Information] Request finished in 1.6714ms 404 
+2017-12-19 00:29:47.209 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:42775/api/message/send?receiver=rick&body=merhaba  
+2017-12-19 00:29:47.209 +03:00 [Information] Failed to validate the token "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VybmFtZSI6Ik1hcnR5IiwiZXhwIjoxNTEzNjI5NjE4LCJpc3MiOiJBcm11dC5TYW1wbGUuTWVzc2FnaW5nIiwiYXVkIjoiQXJtdXQuU2FtcGxlLk1lc3NhZ2luZyJ9.sjuxXFsM9DLqMPcyQ-qyIm61uhDccYAH4dSBnm_Lpxs".
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired.
+ValidTo: '12/18/2017 20:40:18'
+Current time: '12/18/2017 21:29:47'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwt, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.<HandleAuthenticateAsync>d__6.MoveNext()
+2017-12-19 00:29:47.210 +03:00 [Information] "Bearer" was not authenticated. Failure message: "IDX10223: Lifetime validation failed. The token is expired.
+ValidTo: '12/18/2017 20:40:18'
+Current time: '12/18/2017 21:29:47'."
+2017-12-19 00:29:47.210 +03:00 [Debug] Request successfully matched the route with name 'null' and template '"api/Message/send"'.
+2017-12-19 00:29:47.210 +03:00 [Debug] Action '"Armut.Sample.Messaging.Controllers.MessageController.SendMessage (Armut.Sample.Messaging)"' with id '"fe3f2060-20c0-4aa2-919e-fe0781838f6e"' did not match the constraint '"Microsoft.AspNetCore.Mvc.Internal.HttpMethodActionConstraint"'
+2017-12-19 00:29:47.210 +03:00 [Debug] No actions matched the current request. Route values: []
+2017-12-19 00:29:47.210 +03:00 [Debug] Request did not match any routes.
+2017-12-19 00:29:47.210 +03:00 [Debug] Connection id ""0HLA6BP4QKQQ4"" completed keep alive response.
+2017-12-19 00:29:47.210 +03:00 [Information] Request finished in 1.8308ms 404 
+2017-12-19 00:29:50.516 +03:00 [Information] Request starting HTTP/1.1 POST http://localhost:42775/api/message/send?receiver=rick&body=merhaba  0
+2017-12-19 00:29:50.516 +03:00 [Information] Failed to validate the token "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VybmFtZSI6Ik1hcnR5IiwiZXhwIjoxNTEzNjI5NjE4LCJpc3MiOiJBcm11dC5TYW1wbGUuTWVzc2FnaW5nIiwiYXVkIjoiQXJtdXQuU2FtcGxlLk1lc3NhZ2luZyJ9.sjuxXFsM9DLqMPcyQ-qyIm61uhDccYAH4dSBnm_Lpxs".
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired.
+ValidTo: '12/18/2017 20:40:18'
+Current time: '12/18/2017 21:29:50'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwt, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.<HandleAuthenticateAsync>d__6.MoveNext()
+2017-12-19 00:29:50.517 +03:00 [Information] "Bearer" was not authenticated. Failure message: "IDX10223: Lifetime validation failed. The token is expired.
+ValidTo: '12/18/2017 20:40:18'
+Current time: '12/18/2017 21:29:50'."
+2017-12-19 00:29:50.517 +03:00 [Debug] Request successfully matched the route with name 'null' and template '"api/Message/send"'.
+2017-12-19 00:29:50.520 +03:00 [Debug] Executing action "Armut.Sample.Messaging.Controllers.MessageController.SendMessage (Armut.Sample.Messaging)"
+2017-12-19 00:29:50.526 +03:00 [Information] Authorization failed for user: null.
+2017-12-19 00:29:50.527 +03:00 [Information] Authorization failed for the request at filter '"Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter"'.
+2017-12-19 00:29:50.527 +03:00 [Information] Executing ChallengeResult with authentication schemes ([]).
+2017-12-19 00:29:50.531 +03:00 [Information] AuthenticationScheme: "Bearer" was challenged.
+2017-12-19 00:29:50.531 +03:00 [Information] Executed action "Armut.Sample.Messaging.Controllers.MessageController.SendMessage (Armut.Sample.Messaging)" in 11.3075ms
+2017-12-19 00:29:50.531 +03:00 [Debug] Connection id ""0HLA6BP4QKQQ4"" completed keep alive response.
+2017-12-19 00:29:50.531 +03:00 [Information] Request finished in 15.8368ms 401 
+2017-12-19 00:30:13.691 +03:00 [Information] Request starting HTTP/1.1 POST http://localhost:42775/api/user/login?UserName=Marty&password=131412  0
+2017-12-19 00:30:13.692 +03:00 [Information] Failed to validate the token "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VybmFtZSI6Ik1hcnR5IiwiZXhwIjoxNTEzNjI5NjE4LCJpc3MiOiJBcm11dC5TYW1wbGUuTWVzc2FnaW5nIiwiYXVkIjoiQXJtdXQuU2FtcGxlLk1lc3NhZ2luZyJ9.sjuxXFsM9DLqMPcyQ-qyIm61uhDccYAH4dSBnm_Lpxs".
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired.
+ValidTo: '12/18/2017 20:40:18'
+Current time: '12/18/2017 21:30:13'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwt, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.<HandleAuthenticateAsync>d__6.MoveNext()
+2017-12-19 00:30:13.692 +03:00 [Information] "Bearer" was not authenticated. Failure message: "IDX10223: Lifetime validation failed. The token is expired.
+ValidTo: '12/18/2017 20:40:18'
+Current time: '12/18/2017 21:30:13'."
+2017-12-19 00:30:13.692 +03:00 [Debug] Request successfully matched the route with name 'null' and template '"api/User/login"'.
+2017-12-19 00:30:13.692 +03:00 [Debug] Action '"Armut.Sample.Messaging.Controllers.UserController.Login (Armut.Sample.Messaging)"' with id '"11cf1429-b844-4bea-b843-545c53be8e08"' did not match the constraint '"Microsoft.AspNetCore.Mvc.Internal.HttpMethodActionConstraint"'
+2017-12-19 00:30:13.692 +03:00 [Debug] No actions matched the current request. Route values: []
+2017-12-19 00:30:13.692 +03:00 [Debug] Request did not match any routes.
+2017-12-19 00:30:13.693 +03:00 [Debug] Connection id ""0HLA6BP4QKQQ4"" completed keep alive response.
+2017-12-19 00:30:13.693 +03:00 [Information] Request finished in 1.532ms 404 
+2017-12-19 00:30:24.454 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:42775/api/user/login?UserName=Marty&password=131412  
+2017-12-19 00:30:24.455 +03:00 [Information] Failed to validate the token "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VybmFtZSI6Ik1hcnR5IiwiZXhwIjoxNTEzNjI5NjE4LCJpc3MiOiJBcm11dC5TYW1wbGUuTWVzc2FnaW5nIiwiYXVkIjoiQXJtdXQuU2FtcGxlLk1lc3NhZ2luZyJ9.sjuxXFsM9DLqMPcyQ-qyIm61uhDccYAH4dSBnm_Lpxs".
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired.
+ValidTo: '12/18/2017 20:40:18'
+Current time: '12/18/2017 21:30:24'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwt, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.<HandleAuthenticateAsync>d__6.MoveNext()
+2017-12-19 00:30:24.455 +03:00 [Information] "Bearer" was not authenticated. Failure message: "IDX10223: Lifetime validation failed. The token is expired.
+ValidTo: '12/18/2017 20:40:18'
+Current time: '12/18/2017 21:30:24'."
+2017-12-19 00:30:24.455 +03:00 [Debug] Request successfully matched the route with name 'null' and template '"api/User/login"'.
+2017-12-19 00:30:24.456 +03:00 [Debug] Executing action "Armut.Sample.Messaging.Controllers.UserController.Login (Armut.Sample.Messaging)"
+2017-12-19 00:30:24.456 +03:00 [Information] Executing action method "Armut.Sample.Messaging.Controllers.UserController.Login (Armut.Sample.Messaging)" with arguments (["Marty", "131412"]) - ModelState is Valid
+2017-12-19 00:30:24.457 +03:00 [Information] Entity Framework Core "2.0.1-rtm-125" initialized '"MessagingContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2017-12-19 00:30:24.458 +03:00 [Debug] Opening connection to database '"Armut.Sample.Messaging"' on server '"(localdb)\mssqllocaldb"'.
+2017-12-19 00:30:24.458 +03:00 [Debug] Opened connection to database '"Armut.Sample.Messaging"' on server '"(localdb)\mssqllocaldb"'.
+2017-12-19 00:30:24.458 +03:00 [Debug] Executing DbCommand [Parameters=["@__username_0='?' (Size = 100)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [u].[UserID], [u].[EmailAddress], [u].[Password], [u].[UserName]
+FROM [User] AS [u]
+WHERE [u].[UserName] = @__username_0"
+2017-12-19 00:30:24.459 +03:00 [Information] Executed DbCommand ("0"ms) [Parameters=["@__username_0='?' (Size = 100)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [u].[UserID], [u].[EmailAddress], [u].[Password], [u].[UserName]
+FROM [User] AS [u]
+WHERE [u].[UserName] = @__username_0"
+2017-12-19 00:30:24.459 +03:00 [Debug] A data reader was disposed.
+2017-12-19 00:30:24.459 +03:00 [Debug] Closing connection to database '"Armut.Sample.Messaging"' on server '"(localdb)\mssqllocaldb"'.
+2017-12-19 00:30:24.459 +03:00 [Debug] Closed connection to database '"Armut.Sample.Messaging"' on server '"(localdb)\mssqllocaldb"'.
+2017-12-19 00:30:24.466 +03:00 [Information] User Logged in with Id: 2011
+2017-12-19 00:30:24.466 +03:00 [Debug] Executed action method "Armut.Sample.Messaging.Controllers.UserController.Login (Armut.Sample.Messaging)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult".
+2017-12-19 00:30:24.468 +03:00 [Debug] No information found on request to perform content negotiation.
+2017-12-19 00:30:24.468 +03:00 [Debug] Selected output formatter '"Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter"' and content type '"text/plain"' to write the response.
+2017-12-19 00:30:24.468 +03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-12-19 00:30:24.469 +03:00 [Information] Executed action "Armut.Sample.Messaging.Controllers.UserController.Login (Armut.Sample.Messaging)" in 12.7644ms
+2017-12-19 00:30:24.469 +03:00 [Debug] Connection id ""0HLA6BP4QKQQ4"" completed keep alive response.
+2017-12-19 00:30:24.469 +03:00 [Information] Request finished in 14.7616ms 200 text/plain; charset=utf-8
+2017-12-19 00:30:43.988 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:42775/ap/api/message/send?receiver=rick&body=merhaba  
+2017-12-19 00:30:43.989 +03:00 [Information] Successfully validated the token.
+2017-12-19 00:30:43.990 +03:00 [Information] AuthenticationScheme: "Bearer" was successfully authenticated.
+2017-12-19 00:30:43.991 +03:00 [Debug] Request did not match any routes.
+2017-12-19 00:30:43.991 +03:00 [Debug] Connection id ""0HLA6BP4QKQQ4"" completed keep alive response.
+2017-12-19 00:30:43.991 +03:00 [Information] Request finished in 2.4255ms 404 
+2017-12-19 00:30:53.020 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:42775/api/message/send?receiver=rick&body=merhaba  
+2017-12-19 00:30:53.020 +03:00 [Information] Successfully validated the token.
+2017-12-19 00:30:53.020 +03:00 [Information] AuthenticationScheme: "Bearer" was successfully authenticated.
+2017-12-19 00:30:53.020 +03:00 [Debug] Request successfully matched the route with name 'null' and template '"api/Message/send"'.
+2017-12-19 00:30:53.020 +03:00 [Debug] Action '"Armut.Sample.Messaging.Controllers.MessageController.SendMessage (Armut.Sample.Messaging)"' with id '"fe3f2060-20c0-4aa2-919e-fe0781838f6e"' did not match the constraint '"Microsoft.AspNetCore.Mvc.Internal.HttpMethodActionConstraint"'
+2017-12-19 00:30:53.020 +03:00 [Debug] No actions matched the current request. Route values: []
+2017-12-19 00:30:53.020 +03:00 [Debug] Request did not match any routes.
+2017-12-19 00:30:53.021 +03:00 [Debug] Connection id ""0HLA6BP4QKQQ4"" completed keep alive response.
+2017-12-19 00:30:53.021 +03:00 [Information] Request finished in 0.8322ms 404 
+2017-12-19 00:30:58.518 +03:00 [Information] Request starting HTTP/1.1 POST http://localhost:42775/api/message/send?receiver=rick&body=merhaba  0
+2017-12-19 00:30:58.518 +03:00 [Information] Successfully validated the token.
+2017-12-19 00:30:58.518 +03:00 [Information] AuthenticationScheme: "Bearer" was successfully authenticated.
+2017-12-19 00:30:58.518 +03:00 [Debug] Request successfully matched the route with name 'null' and template '"api/Message/send"'.
+2017-12-19 00:30:58.519 +03:00 [Debug] Executing action "Armut.Sample.Messaging.Controllers.MessageController.SendMessage (Armut.Sample.Messaging)"
+2017-12-19 00:30:58.519 +03:00 [Information] Authorization was successful for user: null.
+2017-12-19 00:30:58.520 +03:00 [Information] Executing action method "Armut.Sample.Messaging.Controllers.MessageController.SendMessage (Armut.Sample.Messaging)" with arguments (["merhaba", "rick"]) - ModelState is Valid
+2017-12-19 00:30:58.522 +03:00 [Information] Entity Framework Core "2.0.1-rtm-125" initialized '"MessagingContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2017-12-19 00:30:58.522 +03:00 [Debug] Opening connection to database '"Armut.Sample.Messaging"' on server '"(localdb)\mssqllocaldb"'.
+2017-12-19 00:30:58.522 +03:00 [Debug] Opened connection to database '"Armut.Sample.Messaging"' on server '"(localdb)\mssqllocaldb"'.
+2017-12-19 00:30:58.522 +03:00 [Debug] Executing DbCommand [Parameters=["@__username_0='?' (Size = 100)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [u].[UserID], [u].[EmailAddress], [u].[Password], [u].[UserName]
+FROM [User] AS [u]
+WHERE [u].[UserName] = @__username_0"
+2017-12-19 00:30:58.523 +03:00 [Information] Executed DbCommand ("0"ms) [Parameters=["@__username_0='?' (Size = 100)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [u].[UserID], [u].[EmailAddress], [u].[Password], [u].[UserName]
+FROM [User] AS [u]
+WHERE [u].[UserName] = @__username_0"
+2017-12-19 00:30:58.523 +03:00 [Debug] A data reader was disposed.
+2017-12-19 00:30:58.523 +03:00 [Debug] Closing connection to database '"Armut.Sample.Messaging"' on server '"(localdb)\mssqllocaldb"'.
+2017-12-19 00:30:58.523 +03:00 [Debug] Closed connection to database '"Armut.Sample.Messaging"' on server '"(localdb)\mssqllocaldb"'.
+2017-12-19 00:30:58.524 +03:00 [Debug] Opening connection to database '"Armut.Sample.Messaging"' on server '"(localdb)\mssqllocaldb"'.
+2017-12-19 00:30:58.524 +03:00 [Debug] Opened connection to database '"Armut.Sample.Messaging"' on server '"(localdb)\mssqllocaldb"'.
+2017-12-19 00:30:58.524 +03:00 [Debug] Executing DbCommand [Parameters=["@__username_0='?' (Size = 100)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [u].[UserID], [u].[EmailAddress], [u].[Password], [u].[UserName]
+FROM [User] AS [u]
+WHERE [u].[UserName] = @__username_0"
+2017-12-19 00:30:58.525 +03:00 [Information] Executed DbCommand ("0"ms) [Parameters=["@__username_0='?' (Size = 100)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [u].[UserID], [u].[EmailAddress], [u].[Password], [u].[UserName]
+FROM [User] AS [u]
+WHERE [u].[UserName] = @__username_0"
+2017-12-19 00:30:58.525 +03:00 [Debug] A data reader was disposed.
+2017-12-19 00:30:58.525 +03:00 [Debug] Closing connection to database '"Armut.Sample.Messaging"' on server '"(localdb)\mssqllocaldb"'.
+2017-12-19 00:30:58.525 +03:00 [Debug] Closed connection to database '"Armut.Sample.Messaging"' on server '"(localdb)\mssqllocaldb"'.
+2017-12-19 00:30:58.535 +03:00 [Debug] Compiling query model: "
+"'"from Blocking b in DbSet<Blocking>
+where [b].UnWantedId == __userId_0
+join User u in DbSet<User>
+on [b].BlockerId equals [u].UserID
+select new User{ 
+    UserID = [u].UserID, 
+    UserName = [u].UserName, 
+    EmailAddress = [u].EmailAddress 
+}
+"'
+2017-12-19 00:30:58.536 +03:00 [Debug] Optimized query model: "
+"'"from Blocking b in DbSet<Blocking>
+where [b].UnWantedId == __userId_0
+join User u in DbSet<User>
+on [b].BlockerId equals [u].UserID
+select new User{ 
+    UserID = [u].UserID, 
+    UserName = [u].UserName, 
+    EmailAddress = [u].EmailAddress 
+}
+"'
+2017-12-19 00:30:58.546 +03:00 [Debug] "(QueryContext queryContext) => IEnumerable<User> _InterceptExceptions(
+    source: IEnumerable<User> _ShapedQuery(
+        queryContext: queryContext, 
+        shaperCommandContext: SelectExpression: 
+            SELECT [u].[UserID], [u].[UserName], [u].[EmailAddress]
+            FROM [Blocking] AS [b]
+            INNER JOIN [User] AS [u] ON [b].[BlockerId] = [u].[UserID]
+            WHERE [b].[UnWantedId] = @__userId_0, 
+        shaper: TypedProjectionShaper<TypedCompositeShaper<ValueBufferShaper, ValueBuffer, ValueBufferShaper, ValueBuffer, TransparentIdentifier<ValueBuffer, ValueBuffer>>, TransparentIdentifier<ValueBuffer, ValueBuffer>, User>), 
+    contextType: Armut.Sample.Messaging.Data.MessagingContext, 
+    logger: DiagnosticsLogger<Query>, 
+    queryContext: queryContext)"
+2017-12-19 00:30:58.546 +03:00 [Debug] Opening connection to database '"Armut.Sample.Messaging"' on server '"(localdb)\mssqllocaldb"'.
+2017-12-19 00:30:58.546 +03:00 [Debug] Opened connection to database '"Armut.Sample.Messaging"' on server '"(localdb)\mssqllocaldb"'.
+2017-12-19 00:30:58.547 +03:00 [Debug] Executing DbCommand [Parameters=["@__userId_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[UserID], [u].[UserName], [u].[EmailAddress]
+FROM [Blocking] AS [b]
+INNER JOIN [User] AS [u] ON [b].[BlockerId] = [u].[UserID]
+WHERE [b].[UnWantedId] = @__userId_0"
+2017-12-19 00:30:58.550 +03:00 [Information] Executed DbCommand ("2"ms) [Parameters=["@__userId_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[UserID], [u].[UserName], [u].[EmailAddress]
+FROM [Blocking] AS [b]
+INNER JOIN [User] AS [u] ON [b].[BlockerId] = [u].[UserID]
+WHERE [b].[UnWantedId] = @__userId_0"
+2017-12-19 00:30:58.550 +03:00 [Debug] A data reader was disposed.
+2017-12-19 00:30:58.550 +03:00 [Debug] Closing connection to database '"Armut.Sample.Messaging"' on server '"(localdb)\mssqllocaldb"'.
+2017-12-19 00:30:58.550 +03:00 [Debug] Closed connection to database '"Armut.Sample.Messaging"' on server '"(localdb)\mssqllocaldb"'.
+2017-12-19 00:30:58.550 +03:00 [Debug] Opening connection to database '"Armut.Sample.Messaging"' on server '"(localdb)\mssqllocaldb"'.
+2017-12-19 00:30:58.550 +03:00 [Debug] Opened connection to database '"Armut.Sample.Messaging"' on server '"(localdb)\mssqllocaldb"'.
+2017-12-19 00:30:58.550 +03:00 [Debug] Executing DbCommand [Parameters=["@__username_0='?' (Size = 100)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [u].[UserID], [u].[EmailAddress], [u].[Password], [u].[UserName]
+FROM [User] AS [u]
+WHERE [u].[UserName] = @__username_0"
+2017-12-19 00:30:58.550 +03:00 [Information] Executed DbCommand ("0"ms) [Parameters=["@__username_0='?' (Size = 100)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [u].[UserID], [u].[EmailAddress], [u].[Password], [u].[UserName]
+FROM [User] AS [u]
+WHERE [u].[UserName] = @__username_0"
+2017-12-19 00:30:58.551 +03:00 [Debug] A data reader was disposed.
+2017-12-19 00:30:58.551 +03:00 [Debug] Closing connection to database '"Armut.Sample.Messaging"' on server '"(localdb)\mssqllocaldb"'.
+2017-12-19 00:30:58.551 +03:00 [Debug] Closed connection to database '"Armut.Sample.Messaging"' on server '"(localdb)\mssqllocaldb"'.
+2017-12-19 00:30:58.608 +03:00 [Debug] Opening connection to database '"Armut.Sample.Messaging"' on server '"(localdb)\mssqllocaldb"'.
+2017-12-19 00:30:58.609 +03:00 [Debug] Opened connection to database '"Armut.Sample.Messaging"' on server '"(localdb)\mssqllocaldb"'.
+2017-12-19 00:30:58.610 +03:00 [Debug] Beginning transaction with isolation level '"ReadCommitted"'.
+2017-12-19 00:30:58.634 +03:00 [Debug] Executing DbCommand [Parameters=["@p0='?' (Size = 500), @p1='?', @p2='?', @p3='?', @p4='?'"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [Message] ([Body], [ReceiveTime], [ReceiverId], [SenderId], [SentTime])
+VALUES (@p0, @p1, @p2, @p3, @p4);
+SELECT [MessageID], [Read]
+FROM [Message]
+WHERE @@ROWCOUNT = 1 AND [MessageID] = scope_identity();"
+2017-12-19 00:30:58.638 +03:00 [Information] Executed DbCommand ("4"ms) [Parameters=["@p0='?' (Size = 500), @p1='?', @p2='?', @p3='?', @p4='?'"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [Message] ([Body], [ReceiveTime], [ReceiverId], [SenderId], [SentTime])
+VALUES (@p0, @p1, @p2, @p3, @p4);
+SELECT [MessageID], [Read]
+FROM [Message]
+WHERE @@ROWCOUNT = 1 AND [MessageID] = scope_identity();"
+2017-12-19 00:30:58.643 +03:00 [Debug] A data reader was disposed.
+2017-12-19 00:30:58.651 +03:00 [Debug] Committing transaction.
+2017-12-19 00:30:58.651 +03:00 [Debug] Closing connection to database '"Armut.Sample.Messaging"' on server '"(localdb)\mssqllocaldb"'.
+2017-12-19 00:30:58.651 +03:00 [Debug] Closed connection to database '"Armut.Sample.Messaging"' on server '"(localdb)\mssqllocaldb"'.
+2017-12-19 00:30:58.651 +03:00 [Debug] Disposing transaction.
+2017-12-19 00:30:58.652 +03:00 [Debug] Opening connection to database '"Armut.Sample.Messaging"' on server '"(localdb)\mssqllocaldb"'.
+2017-12-19 00:30:58.652 +03:00 [Debug] Opened connection to database '"Armut.Sample.Messaging"' on server '"(localdb)\mssqllocaldb"'.
+2017-12-19 00:30:58.652 +03:00 [Debug] Executing DbCommand [Parameters=["@__username_0='?' (Size = 100)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [u].[UserID], [u].[EmailAddress], [u].[Password], [u].[UserName]
+FROM [User] AS [u]
+WHERE [u].[UserName] = @__username_0"
+2017-12-19 00:30:58.653 +03:00 [Information] Executed DbCommand ("0"ms) [Parameters=["@__username_0='?' (Size = 100)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [u].[UserID], [u].[EmailAddress], [u].[Password], [u].[UserName]
+FROM [User] AS [u]
+WHERE [u].[UserName] = @__username_0"
+2017-12-19 00:30:58.653 +03:00 [Debug] A data reader was disposed.
+2017-12-19 00:30:58.653 +03:00 [Debug] Closing connection to database '"Armut.Sample.Messaging"' on server '"(localdb)\mssqllocaldb"'.
+2017-12-19 00:30:58.653 +03:00 [Debug] Closed connection to database '"Armut.Sample.Messaging"' on server '"(localdb)\mssqllocaldb"'.
+2017-12-19 00:30:58.653 +03:00 [Information] Message sent to user 2011 
+ Message Body: "merhaba" 
+ from user 2011
+2017-12-19 00:30:58.654 +03:00 [Debug] Executed action method "Armut.Sample.Messaging.Controllers.MessageController.SendMessage (Armut.Sample.Messaging)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult".
+2017-12-19 00:30:58.654 +03:00 [Debug] No information found on request to perform content negotiation.
+2017-12-19 00:30:58.654 +03:00 [Debug] Selected output formatter '"Microsoft.AspNetCore.Mvc.Formatters.JsonOutputFormatter"' and content type '"application/json"' to write the response.
+2017-12-19 00:30:58.654 +03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-12-19 00:30:58.669 +03:00 [Information] Executed action "Armut.Sample.Messaging.Controllers.MessageController.SendMessage (Armut.Sample.Messaging)" in 150.578ms
+2017-12-19 00:30:58.669 +03:00 [Debug] Connection id ""0HLA6BP4QKQQ4"" completed keep alive response.
+2017-12-19 00:30:58.669 +03:00 [Information] Request finished in 151.5711ms 200 application/json; charset=utf-8
+2017-12-19 00:32:11.950 +03:00 [Debug] Connection id ""0HLA6BP4QKQQ4"" received FIN.
+2017-12-19 00:32:11.950 +03:00 [Debug] Connection id ""0HLA6BP4QKQQ4"" disconnecting.
+2017-12-19 00:32:11.950 +03:00 [Debug] Connection id ""0HLA6BP4QKQQ4"" sending FIN.
+2017-12-19 00:32:11.951 +03:00 [Debug] Connection id ""0HLA6BP4QKQQ4"" stopped.
